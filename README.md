@@ -1,7 +1,7 @@
 Yandex RSA
 ==========
 PHP implementation of [Yandex RSA](http://api.yandex.ru/fotki/doc/concepts/fimptoken.xml) hash.
-
+Requires PHP>=5.4 (hex2bin function) with [GMP](http://www.php.net/manual/en/book.gmp.php) support.
 ```php
 $test_key = "BFC949E4C7ADCC6F179226D574869CBF44D6220DA37C054C64CE48D4BAA36B039D8206E45E4576BFDB1D3B40D958FF0894F6541717824FDEBCEDD27C4BE1F057#10001";
 $string = '<credentials login="alekna" password="123456"/>';

@@ -3,6 +3,7 @@
 	 * Yandex RSA
 	 *
 	 * @description PHP implementation of Yandex RSA hash http://api.yandex.ru/fotki/doc/concepts/fimptoken.xml
+	 * @require PHP>=5.4 with GMP support
 	 * @author Anthony Ilinykh <anthonyilinykh@gmail.com>
 	 * @version 1.0
 	 */
